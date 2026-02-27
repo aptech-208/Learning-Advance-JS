@@ -3,7 +3,8 @@ class Organization {
         console.log("This Is A Constructor For Organization");
     }
 
-    Student() {
+    Student(name) {
+        this.name=name
         console.log("This Is A Method For Student");
     }
 
