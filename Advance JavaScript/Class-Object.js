@@ -5,7 +5,7 @@ class Organization {
 
     Student(name) {
         this.name=name
-        console.log("This Is A Method For Student");
+        console.log(`This Is A Method For Student: ${this.name}`);
     }
 
     Staff() {
@@ -16,5 +16,5 @@ class Organization {
 const ryan = new Organization(); // Object
 const jagdesh = new Organization(); // Object
 
-ryan.Student(); // Method Calling
-jagdesh.Staff(); // Method Calling
+ryan.Student("Ryan"); // Method Calling
+jagdesh.Staff("Jagdesh"); // Method Calling
